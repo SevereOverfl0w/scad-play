@@ -10,7 +10,7 @@
     (cube 100 100 100)
     (->> (cube 100 200 100)
          (translate [0 150 0])
-         (color [0 0 255]))
+         (color [0 0 1]))
     (->> (cylinder 20 100)
          (translate [-100 150 0])
          (rotatev 90 [0 1 0]))))
